@@ -1,0 +1,18 @@
+:root {
+  --body-text: "Playfair Display", serif;
+  --heading-text: "Archivo Narrow", sans-serif;
+}
+
+
+h1 {
+font-family: var(--heading-text);
+font-weight: 700;
+font-style: Bold;
+font-size: 128px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+
