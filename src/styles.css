@@ -7,12 +7,34 @@
 h1 {
 font-family: var(--heading-text);
 font-weight: 700;
-font-style: Bold;
 font-size: 128px;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 0;
 }
 
+h2 {
+font-family: var(--body-text);
+font-weight: 500;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 12px;
+}
 
+h2 .brat {
+  font-family: var(--heading-text);
+  font-weight: 700;
+}
+
+footer {
+font-family: var(--body-text);
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
 
