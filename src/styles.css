@@ -3,38 +3,98 @@
   --heading-text: "Archivo Narrow", sans-serif;
 }
 
+body {
+  background-color: grey;
+  font-family: var(--heading-text);
+}
 
-h1 {
-font-family: var(--heading-text);
+.container {
+  max-width:1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url("../images/charli-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+text-align: center;
+padding: 260px;
+}
+
+header h1 {
 font-weight: 700;
 font-size: 128px;
-line-height: 100%;
+line-height: 1.5;
 letter-spacing: 0%;
-text-align: center;
 margin-bottom: 0;
 }
 
-h2 {
+header h2 {
 font-family: var(--body-text);
 font-weight: 500;
 font-size: 48px;
-line-height: 100%;
+line-height: 1.5;
 letter-spacing: 0%;
 text-align: center;
 margin-top: 12px;
 }
 
-h2 .brat {
+header h2 .brat {
   font-family: var(--heading-text);
   font-weight: 700;
+  color: #8ace00;
 }
+
+header h3 {
+  font-family: var(--body-text);
+  font-weight:900;
+  font-size:18px;
+  line-height: 1.5;
+  letter-spacing: 4px;
+}
+
+header a {
+  background-color: white;
+  text-decoration: none;
+  color: #272044;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+text-transform: uppercase;
+padding: 16px 32px;
+border-radius: 20px;
+display: inline-block;
+margin-top: 32px;
+}
+
+
 
 footer {
 font-family: var(--body-text);
 font-weight: 400;
 font-size: 18px;
-line-height: 100%;
+line-height: 1.5;
 letter-spacing: 0%;
 text-align: center;
 }
 
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+}
