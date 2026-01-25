@@ -74,17 +74,84 @@ main {
   background-color: white;
 }
 
+.text-center {
+  text-align: center;
+}
 section {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 0;
+  max-width: 100%;
+  padding: 100px;
 }
 
-.charli-4 {
-  max-width: 600px;
-  aspect-ratio: 3/4;
-  width: 100%;
+section.card-grid {
+  background-color: rgb(203, 203, 203);
 }
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 24px;
+
+}
+
+.card {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  font-family: var(--body-text);
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.card-body {
+ padding: 0 24px 24px 24px;
+ margin: 0;
+}
+
+.card h3 {
+   font-weight: 700;
+  font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+     color: #8ace00;
+}
+.card h4 {
+  font-family: var(--heading-text);
+  font-weight: 400;
+  color: #8ace00;
+  font-size: 18px;
+    margin: 8px 0;
+} 
+
+.card p {
+  margin-bottom: 12px;
+  padding-bottom: 16px;
+}
+
+.btn {
+   background-color: white;
+  text-decoration: none;
+  color: #272044;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 3px;
+text-transform: uppercase;
+padding: 12px 24px;
+border-radius: 20px;
+display: block;
+margin: 0 auto;
+}
+
+.img-responsive {
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+ .img-responsive.big {
+  border-radius: 0;
+ }
+
 .grid-2-column {
   display: grid;
   grid-template-columns: 1fr 1fr;
