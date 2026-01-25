@@ -70,12 +70,70 @@ display: inline-block;
 margin-top: 32px;
 }
 
+main {
+  background-color: white;
+}
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.charli-4 {
+  max-width: 600px;
+  aspect-ratio: 3/4;
+  width: 100%;
+}
+.grid-2-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+  padding: 100px;
+}
+
+.grid-2-column h4 {
+  margin:0px;
+}
+.grid-2-column h2 {
+  font-size: 40px;
+  margin: 0;
+  line-height: 1;
+}
+
+.grid-2-column p {
+  font-family: var(--body-text);
+  margin: 12px 0;
+}
+
+.grid-3-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.song-row-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:8px;
+  max-width: 100%
+}
+
+.songs-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:8px;
+  max-width: 100%
+}
+
+.embed {
+  aspect-ratio: 4/4;
+}
 
 footer {
 background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)),url("../images/charli-2.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+background-repeat: no-repeat;
+background-size: cover;
 font-family: var(--body-text);
 font-weight: 400;
 font-size: 16px;
@@ -85,8 +143,8 @@ text-align: left;
 display: grid;
 grid-template-columns: 1fr 2fr 2fr;
 max-width: 100%;
-grid-gap: 16px;
-padding: 24px;
+grid-gap: 32px;
+padding: 100px;
 }
 
 footer h3 {
@@ -129,5 +187,14 @@ footer a {
 
   footer {
     font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
