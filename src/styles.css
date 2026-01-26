@@ -84,10 +84,26 @@ section {
 }
 
 section.card-grid {
-  background-color: rgb(203, 203, 203);
+  background-color: rgb(255, 255, 255);
+  padding: 48px;
 }
 
 
+section.card-grid h4.header {
+color: rgb(37, 37, 37);
+letter-spacing: 3px;
+text-transform: uppercase;
+font-family: var(--body-text);
+font-size: 14px;
+margin-bottom: 0;
+}
+
+section.card-grid h2 {
+  color: #8ace00;
+font-size: 40px;
+font-weight: 700;
+margin-top:12px;
+}
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -150,6 +166,27 @@ margin: 0 auto;
 }
  .img-responsive.big {
   border-radius: 0;
+ }
+
+ section.songs {
+background-color: rgb(42, 42, 42);
+padding-top: 48px;
+ } 
+
+ .songs h4 {
+  color: white;
+    letter-spacing: 3px;
+text-transform: uppercase;
+font-family: var(--body-text);
+font-size: 14px;
+margin-bottom: 0;
+ }
+
+  .songs h2 {
+color: #8ace00;
+font-size: 40px;
+font-weight: 700;
+margin-top:12px;
  }
 
 .grid-2-column {
